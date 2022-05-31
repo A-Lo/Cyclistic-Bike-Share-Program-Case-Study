@@ -1,11 +1,11 @@
 <h1 align = "center"> Case Study: Cyclistic Bike Share Company </h1>
 
-<p align = "center"> The data used in this project: [Here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+<p align = "center"> The data used in this project: [Here](https://divvy-tripdata.s3.amazonaws.com/index.html)</p>
 
+<p align = "center">   
+    <b>Note: The project contains 13-months worth of company data; dates range from April 2021 to April 2022.
     <br><br>
-    **Note: The project contains 13-months worth of company data; dates range from April 2021 to April 2022.**
-    <br>
-    **Note: The datasets have a different name because Cyclistic is a fictional company. The data has been made available by Motivate International Inc. under this [license](https://divvy-tripdata.s3.amazonaws.com/index.html) This is public data that you can use to explore how different customer types are using Cyclistic bikes.**
+    Note: The datasets have a different name because Cyclistic is a fictional company. The data has been made available by Motivate International Inc. under this [license](https://divvy-tripdata.s3.amazonaws.com/index.html) This is public data that you can use to explore how different customer types are using Cyclistic bikes. <b>
     </b>
 </p>
 
@@ -15,10 +15,12 @@
 
 ## Introduction:
 ---
+    
 Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
 
 ## Goal:
 ---
+    
 Determine how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Identify trends in the historical bike trip data.
 
 ## Tools Used:

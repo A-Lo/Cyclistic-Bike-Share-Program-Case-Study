@@ -6,11 +6,11 @@ from sqlalchemy.exc import SQLAlchemyError
 # create_engine(dialect+driver://username:password@host:port/database)
 #References: https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls
 
-username    = "postgres"
-pw          = "password"
-host_name   = "localhost"
-port        = "5432"
-db_name     = "cyclistic_bike_db"
+username    = "SERVER_NAME"
+pw          = "SERVER_PASSWORD"
+host_name   = "HOST_NAME"
+port        = "PORT_NUMBER"
+db_name     = "DATABASE_NAME"
 
 year = [    "202104", "202105", "202106", "202107",
             "202108", "202109", "202110", "202111", "202112"

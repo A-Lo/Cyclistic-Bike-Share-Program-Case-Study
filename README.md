@@ -20,23 +20,35 @@
     
 Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
 
+    
 ## Goal:
 ---
     
 Determine how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Identify trends in the historical bike trip data.
 
-## Tools Used:
+    
+### Tools Used:
 ---
 
-#### SQL (PostgreSQL, pgadmin4):
-- I decided to go with PostgreSQL, because it’s the one I’m more comfortable with, and prefer. I went with the GUI interface, pgadmin4, because I wanted to have a visual representation of my query results; considering that the central table consists of over 6-million records, the biggest dataset I’ve worked with, I’d prefer to use a GUI to query the central table.
+- SQL (PostgreSQL, pgadmin4):
+- Python (Pandas, SQLAlchemy):
+- Tableau(Data visualization):
+ - Excel Spreadsheets:
+    
+### Table Attributes: 
 
-#### Python (Pandas, SQLAlchemy):
-- pgAdmin4 doesn’t have a feature where you can simply pick a data file and import it into a database with the few clicks. There is one way to copy a table into a database, but you must manually create a shell-table, assign the column names and the datatypes exactly as it appears on the data file, in my case, a CSV file. If the attribute name and datatype don’t match, it doesn’t work. Furthermore, this might be simple for a sample table with few attributes, but when working with a table with ten plus columns, it’s not optimal.
-  Therefore, I created a python script, using specified libraries—Pandas, SQLAlchemy— and imported all the CSV files into the desired server/database.
+- RIDE_ID: Unique ride id; record of each bike ride 
+- RIDEABLE_TYPE: The type of bike
+- START_AT: The time the ride initiated 
+- ENDED_AT: The time the ride finalized
+- START_STATION_NAME: Name of the station that the ride initiated
+- START_STARTION_ID: The ID associated with the start station.
+- END_STATION_NAME: Name of the station that the ride finalized
+- END_STARTION_ID: The ID associated with the end station
+- START_LAT: The latitude coordinate where the ride started
+- START_LNG: The longitude coordinate where the ride started
+- END_LAT: The latitude coordinate where the ride ended
+- END_LNG: The longitude coordinate where the ride ended
+- MEMBER_CASUAL: The type of user; either membership or casual user.
 
-#### Tableau(Data visualization):
-- Using the query results, from the Prepare Phase, I saved the query set tables into separate excel spreadsheet files. These spreadsheets are used in the Public Tableau software as the datasource; the free version doesn't allow for database data source connections, only the paid version does.
 
-####	Excel Spreadsheets:
-- Saved query tables saved into excel spreadsheets. These spreadsheets are used for the datasource connection to Public Tableau.

@@ -1,11 +1,13 @@
 <h1 align = "center"> Case Study: Cyclistic Bike Share Company </h1>
 
-<p align = "center"> The data used in this project: [Here](https://divvy-tripdata.s3.amazonaws.com/index.html)</p>
+<p align = "center"> The data used in this project: <a href = "https://divvy-tripdata.s3.amazonaws.com/index.html">Here</a>
+</p>
 
 <p align = "center">   
     <b>Note: The project contains 13-months worth of company data; dates range from April 2021 to April 2022.
     <br><br>
-    Note: The datasets have a different name because Cyclistic is a fictional company. The data has been made available by Motivate International Inc. under this [license](https://divvy-tripdata.s3.amazonaws.com/index.html) This is public data that you can use to explore how different customer types are using Cyclistic bikes. <b>
+     Note: The datasets have a different name because Cyclistic is a fictional company. The data has been made available by Motivate International Inc. under this <a href = "https://divvy-tripdata.s3.amazonaws.com/index.html">license. </a> 
+        <br><br>This is public data that you can use to explore how different customer types are using Cyclistic bikes. <b>
     </b>
 </p>
 

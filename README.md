@@ -106,15 +106,30 @@ Determine how annual members and casual riders differ, why casual riders would b
 -	Found the MAX ride length time for routes, per user type.
 -	Found the MIN ride length time for routes, per user type
 -	Found the AVG ride length time for routes, per user type
+-	Found the AVG ride length for casual and membership user.
 -	Found the TIME DIFFERENCE of the average ride time between the two user types, member and casual. 
 -	Found the AVG ride length, per user type, for each month of the dataset—13 months total.
 -	Found the total amount of unique routes
+
+
+<p float = "left"><img src = "assets/Cyclistic_max_min_avg_info.png" width = "300" /> </p>
+
+<p float="left">
+  <img src="assets/user_avg_ride_time.png" width="300" height = "150" />
+  <img src="assets/user_AVG_ride_time_difference.png" width="300" height = "150" /> 
+</p>
+
+
 
 #### Analysis Queries
 
 -	Calculated the total rides, per user type, by each month.
 -	Calculated the total rides, per user type then type of bikes, MEMBER_CASUAL and RIDEABLE_TYPE, respectively.
 -	Top 33 Popular Routes: Found the top 33 popular routes and grouped by the day of the week and user type, DAY_OF_WEEK_NAME and MEMBER_CASUAL, respectively.
+
+
+![Dashboard_1](assets/Dashboard_1_UI_2022-05-31.png)
+![Dashboard_2](assets/Dashboard_2_UI_2022-05-31.png)
 
 ---
 ### Findings

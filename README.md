@@ -64,10 +64,10 @@ Determine how annual members and casual riders differ, why casual riders would b
 
 - Converted the data type of STARTED_AT and ENDED_AT columns into the appropriate types:
 
-1) After the central table was established, created a new temporary column, in the scenario that casting doesn’t work, only the temp column is affected not the actual columns. 
-2) Copy the data from the original column into the temp column, and cast the temp data type into the desired datatype—in our example: ‘TIMESAMP without time zone’
-3) After reviewing and being satisfied with the temp column values and datatype, change the datatype and values of the original columns, utilizing the USING-clause and the temp column as reference.
-4) Drop the temp column.
+  1) After the central table was established, created a new temporary column, in the scenario that casting doesn’t work, only the temp column is affected not the actual columns. 
+  2) Copy the data from the original column into the temp column, and cast the temp data type into the desired datatype—in our example: ‘TIMESAMP without time zone’
+  3) After reviewing and being satisfied with the temp column values and datatype, change the datatype and values of the original columns, utilizing the USING-clause and the temp column as reference.
+  4) Drop the temp column.
 
 **Created new RIDE_LENGTH column**
 
